@@ -1,0 +1,15 @@
+{
+  "source_url": "https://broad-ukb-sumstats-us-east-1.s3.amazonaws.com/round2/annotations/phenotypes.both_sexes.tsv.bgz",
+  "phenotype_record": {
+    "phenotype": "20002_1477",
+    "description": "Non-cancer illness code, self-reported: psoriatic arthropathy",
+    "variable_type": "binary",
+    "source": "phesant",
+    "n_non_missing": "361141",
+    "n_missing": "53",
+    "n_controls": "360429",
+    "n_cases": "712",
+    "PHESANT_transformation": "20002_0 || CAT-MUL-BINARY-VAR 1477 || Indicator name x135_0_0 || Remove indicator var NAs: 53 || Remove indicator var <0: 0 || Removed 0 examples != 1477 but with missing value (<0) || sample 360429/712(361141) ||",
+    "notes": "Code for non-cancer illness. If the participant was uncertain of the type of illness they had had, then they described it to the interviewer (a trained nurse) who attempted to place it within the coding tree. If the illness could not be located in the coding tree then the interviewer entered a free-text description of it. These free-text descriptions were subsequently examined by a doctor and, where possible, matched to entries in the coding tree. Free-text descriptions which could not be matched with very high probability have been marked as \"unclassifiable\"."
+  }
+}

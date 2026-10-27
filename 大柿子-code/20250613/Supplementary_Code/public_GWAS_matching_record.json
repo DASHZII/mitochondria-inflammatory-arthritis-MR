@@ -1,0 +1,23 @@
+{
+  "url": "https://broad-ukb-sumstats-us-east-1.s3.amazonaws.com/round2/additive-tsvs/20002_1477.gwas.imputed_v3.both_sexes.tsv.bgz",
+  "target": [
+    6,
+    30874797
+  ],
+  "found": [
+    {
+      "variant": "6:30874797:C:T",
+      "minor_allele": "T",
+      "minor_AF": "2.05806e-01",
+      "expected_case_minor_AC": "2.93068e+02",
+      "low_confidence_variant": "false",
+      "n_complete_samples": "361141",
+      "AC": "1.48650e+05",
+      "ytx": "4.11933e+02",
+      "beta": "9.97816e-04",
+      "se": "1.29117e-04",
+      "tstat": "7.72802e+00",
+      "pval": "1.09514e-14"
+    }
+  ]
+}
